@@ -1,0 +1,218 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
+
+* {
+  margin: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #1f2e35;
+}
+
+ul {
+    display: flex;
+    margin: 0 1em 0 1em;
+    margin: 0.5em 0 0.5em 0;
+    
+}
+
+li {
+  list-style-type: none;
+  margin: 0 2em 0 2em;
+  font-size: 1rem;
+  font-weight: 400;
+  
+}
+
+.header_wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+header {
+    min-height: 13vh;
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
+    
+}
+
+.nav_icons {
+    margin-left: 1em;
+}
+
+.nav_icons > img {
+    padding: 0 .5em 0 .5em;
+}
+
+.first_page {
+    min-height: 87vh;
+    display: flex;
+}
+
+.first_page_wrapper {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.txt_info {
+    margin-bottom: 1.5em;
+}
+.img_info {
+    margin-bottom: 1.5em;
+}
+
+.txt_info > h1 {
+    font-weight: 700;
+    font-size: 2.5rem;
+    margin-top: 1.5em;
+}
+
+.txt_info > p {
+    font-weight: 400;
+    font-size: 1.2rem;
+    margin: 1.5em 0 1.5em 0;
+} 
+
+.txt_info > button {
+    padding: .8em 2em;
+    width: 161px;
+    height: 53px;
+    background: #EE4248;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+    border: none;
+    color: white;
+    
+}
+
+.second_page {
+    background-color: #F6F6F6;
+}
+
+.second_page_wrap {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-bottom: 5em;
+    flex-wrap: wrap;
+}
+
+.third_page {
+    min-height: 90vh;
+    display: flex;
+    align-items: center;
+}
+
+.txt_info_wrap > h2 { 
+    margin: 2em 0 1em 0;
+    font-weight: 500;
+    font-size: 2rem;
+}
+
+.txt_info_wrap > p {
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.project_wrap {
+    width: 80%;
+    margin: auto;
+
+}
+
+.heading_wrap {
+    text-align: center;
+}
+
+.heading_wrap > h2 {
+    font-weight: 500;
+    font-size: 1.7rem;
+    padding-top: 1em;
+    
+}
+
+.par {
+    font-weight: 400;
+    font-size: 1rem;
+    color: #30444E;
+    margin: 1em 0 1em 0;
+}
+
+.btm {
+    margin-bottom: 1em;
+}
+.btn {
+    padding: 8px 16px;
+    background: #EE4248;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+    width: 119px;
+    height: 42px;
+    border: none;
+}
+
+.place {
+    margin: 1em .5em 1em .5em;
+}
+
+.description_wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 2em;
+}
+
+address {
+    display: flex;
+    
+    margin: auto;
+    flex-wrap: wrap;
+    padding-top: 3em;
+    padding-bottom: 1em;
+}
+
+.adress {
+    margin-left: 2rem;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-left: 2rem;
+    margin-top: 1em;
+    
+}
+
+footer {
+    min-height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #EE4248;
+}
+
+@media only screen and (min-width: 700px) {
+    .header_wrap {
+        justify-content: center;
+    }
+}
